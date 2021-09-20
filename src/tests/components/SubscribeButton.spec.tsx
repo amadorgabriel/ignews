@@ -3,7 +3,7 @@ import { mocked } from "ts-jest/utils";
 
 import { signIn, useSession } from "next-auth/client";
 import { useRouter } from "next/router";
-import { SubscribeButton } from ".";
+import { SubscribeButton } from "../../components/SubscribeButton";
 
 jest.mock("next-auth/client");
 jest.mock("next/router");
